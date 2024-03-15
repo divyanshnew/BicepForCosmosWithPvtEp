@@ -1,0 +1,27 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "NamePrefix": {
+      "value": "Equitable"
+    },
+    "location": {
+      "value": "Canada Central"
+    },
+    "OwnerName": {
+      "value": "Cloud"
+    },
+    "TeamName": {
+      "value": "CloudOps"
+    },
+    "vnetAddressPrefixes": {
+      "value": "12.0.0.0/16"
+    },
+    "dbAccountkind": {
+      "value": "GlobalDocumentDB"
+    },
+    "dbAccountName": {
+      "value": "biceplearnerhi"
+    }
+  }
+}
